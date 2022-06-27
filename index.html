@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="ru" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="index.css">
+    <title>Ready tasks</title>
+</head>
+<body>
+<div class="wrapper">
+    <header class="header">
+
+        <div class="container">
+            <div class="header__top">
+                <div class="header__social social">
+                    <ul class="social__list">
+                        <li class="social__item">
+                            <a href="#" class="social__link">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve" width="22" height="17">
+                                            <g>
+                                                <path class="svg-patch" fill="#ffffff" d="M24,12.073c0,5.989-4.394,10.954-10.13,11.855v-8.363h2.789l0.531-3.46H13.87V9.86c0-0.947,0.464-1.869,1.95-1.869h1.509   V5.045c0,0-1.37-0.234-2.679-0.234c-2.734,0-4.52,1.657-4.52,4.656v2.637H7.091v3.46h3.039v8.363C4.395,23.025,0,18.061,0,12.073   c0-6.627,5.373-12,12-12S24,5.445,24,12.073z"/>
+                                            </g>
+                                            </svg>
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="#" class="social__link">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve" width="22" height="17">
+                                            <g>
+                                                <path class="svg-patch" fill="#ffffff" d="M12,2.162c3.204,0,3.584,0.012,4.849,0.07c1.308,0.06,2.655,0.358,3.608,1.311c0.962,0.962,1.251,2.296,1.311,3.608   c0.058,1.265,0.07,1.645,0.07,4.849c0,3.204-0.012,3.584-0.07,4.849c-0.059,1.301-0.364,2.661-1.311,3.608   c-0.962,0.962-2.295,1.251-3.608,1.311c-1.265,0.058-1.645,0.07-4.849,0.07s-3.584-0.012-4.849-0.07   c-1.291-0.059-2.669-0.371-3.608-1.311c-0.957-0.957-1.251-2.304-1.311-3.608c-0.058-1.265-0.07-1.645-0.07-4.849   c0-3.204,0.012-3.584,0.07-4.849c0.059-1.296,0.367-2.664,1.311-3.608c0.96-0.96,2.299-1.251,3.608-1.311   C8.416,2.174,8.796,2.162,12,2.162 M12,0C8.741,0,8.332,0.014,7.052,0.072C5.197,0.157,3.355,0.673,2.014,2.014   C0.668,3.36,0.157,5.198,0.072,7.052C0.014,8.332,0,8.741,0,12c0,3.259,0.014,3.668,0.072,4.948c0.085,1.853,0.603,3.7,1.942,5.038   c1.345,1.345,3.186,1.857,5.038,1.942C8.332,23.986,8.741,24,12,24c3.259,0,3.668-0.014,4.948-0.072   c1.854-0.085,3.698-0.602,5.038-1.942c1.347-1.347,1.857-3.184,1.942-5.038C23.986,15.668,24,15.259,24,12   c0-3.259-0.014-3.668-0.072-4.948c-0.085-1.855-0.602-3.698-1.942-5.038c-1.343-1.343-3.189-1.858-5.038-1.942   C15.668,0.014,15.259,0,12,0z"/>
+                                                <path class="svg-patch" fill="#ffffff" d="M12,5.838c-3.403,0-6.162,2.759-6.162,6.162c0,3.403,2.759,6.162,6.162,6.162s6.162-2.759,6.162-6.162   C18.162,8.597,15.403,5.838,12,5.838z M12,16c-2.209,0-4-1.791-4-4s1.791-4,4-4s4,1.791,4,4S14.209,16,12,16z"/>
+                                                <circle fill="#ffffff" cx="18.406" cy="5.594" r="1.44"/>
+                                            </g>
+                                            </svg>
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="#" class="social__link">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve" width="22" height="17">
+                                            <path class="svg-patch" fill="#ffffff" id="Logo_00000038394049246713568260000012923108920998390947_" d="M21.543,7.104c0.014,0.211,0.014,0.423,0.014,0.636  c0,6.507-4.954,14.01-14.01,14.01v-0.004C4.872,21.75,2.252,20.984,0,19.539c0.389,0.047,0.78,0.07,1.172,0.071  c2.218,0.002,4.372-0.742,6.115-2.112c-2.107-0.04-3.955-1.414-4.6-3.42c0.738,0.142,1.498,0.113,2.223-0.084  c-2.298-0.464-3.95-2.483-3.95-4.827c0-0.021,0-0.042,0-0.062c0.685,0.382,1.451,0.593,2.235,0.616  C1.031,8.276,0.363,5.398,1.67,3.148c2.5,3.076,6.189,4.946,10.148,5.145c-0.397-1.71,0.146-3.502,1.424-4.705  c1.983-1.865,5.102-1.769,6.967,0.214c1.103-0.217,2.16-0.622,3.127-1.195c-0.368,1.14-1.137,2.108-2.165,2.724  C22.148,5.214,23.101,4.953,24,4.555C23.339,5.544,22.507,6.407,21.543,7.104z"/>
+                                            </svg>
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="#" class="social__link">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve" width="22" height="17">
+                                            <g id="XMLID_184_">
+                                                <path class="svg-patch" fill="#ffffff" d="M23.498,6.186c-0.276-1.039-1.089-1.858-2.122-2.136C19.505,3.546,12,3.546,12,3.546s-7.505,0-9.377,0.504   C1.591,4.328,0.778,5.146,0.502,6.186C0,8.07,0,12,0,12s0,3.93,0.502,5.814c0.276,1.039,1.089,1.858,2.122,2.136   C4.495,20.454,12,20.454,12,20.454s7.505,0,9.377-0.504c1.032-0.278,1.845-1.096,2.122-2.136C24,15.93,24,12,24,12   S24,8.07,23.498,6.186z M9.546,15.569V8.431L15.818,12L9.546,15.569z"/>
+                                            </g>
+                                            </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="header__inner">
+                    <div class="logo">
+                        <a href="#" class="logo__link">
+                           Rzdorov
+                        </a>
+                    </div>
+                    <div class="header__contacts">
+                        <a class="header__email email contacts" href="mailto:rmzdorov@yandex.ru">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="#f8ae03" viewBox="0 0 24 24" width="24" height="24">
+                                <path class="svg-patch" d="M19,1H5A5.006,5.006,0,0,0,0,6V18a5.006,5.006,0,0,0,5,5H19a5.006,5.006,0,0,0,5-5V6A5.006,5.006,0,0,0,19,1ZM5,3H19a3,3,0,0,1,2.78,1.887l-7.658,7.659a3.007,3.007,0,0,1-4.244,0L2.22,4.887A3,3,0,0,1,5,3ZM19,21H5a3,3,0,0,1-3-3V7.5L8.464,13.96a5.007,5.007,0,0,0,7.072,0L22,7.5V18A3,3,0,0,1,19,21Z"></path>
+                            </svg>
+                            <span>rmzdorov@yandex.ru</span>
+                        </a>
+                        <a class="header__phone phone contacts" href="tel:79200451002">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="#f8ae03" viewBox="0 0 24 24" width="24" height="24">
+                                <path class="svg-patch" d="M13,1a1,1,0,0,1,1-1A10.011,10.011,0,0,1,24,10a1,1,0,0,1-2,0,8.009,8.009,0,0,0-8-8A1,1,0,0,1,13,1Zm1,5a4,4,0,0,1,4,4,1,1,0,0,0,2,0,6.006,6.006,0,0,0-6-6,1,1,0,0,0,0,2Zm9.093,10.739a3.1,3.1,0,0,1,0,4.378l-.91,1.049c-8.19,7.841-28.12-12.084-20.4-20.3l1.15-1A3.081,3.081,0,0,1,7.26.906c.031.031,1.884,2.438,1.884,2.438a3.1,3.1,0,0,1-.007,4.282L7.979,9.082a12.781,12.781,0,0,0,6.931,6.945l1.465-1.165a3.1,3.1,0,0,1,4.281-.006S23.062,16.708,23.093,16.739Zm-1.376,1.454s-2.393-1.841-2.424-1.872a1.1,1.1,0,0,0-1.549,0c-.027.028-2.044,1.635-2.044,1.635a1,1,0,0,1-.979.152A15.009,15.009,0,0,1,5.9,9.3a1,1,0,0,1,.145-1S7.652,6.282,7.679,6.256a1.1,1.1,0,0,0,0-1.549c-.031-.03-1.872-2.425-1.872-2.425a1.1,1.1,0,0,0-1.51.039l-1.15,1C-2.495,10.105,14.776,26.418,20.721,20.8l.911-1.05A1.121,1.121,0,0,0,21.717,18.193Z"></path>
+                            </svg>
+                            <span>+7 (920) 045-10-02</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="header__slider slider">
+
+            <div class="slider__content" style="background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(http://www.fa.ru/org/dpo/msb/Gallery/%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%BD%D1%8B%D0%B9%20%D0%BC%D0%B5%D0%BD%D0%B5%D0%B4%D0%B6%D0%BC%D0%B5%D0%BD%D1%82.jpg);">
+                <div class="slider__caption">
+                    <div class="slider__caption-inner">
+                        <div class="slider__info">
+                            <strong>Ваш надежный</strong>
+                            <span class="bg">помощник в учёбе</span>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="slider__content" style="background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(https://oil-systems.ru/wp-content/uploads/2021/07/podrjad-na-proektno-izyskatelskie-raboty.jpg);">
+                <div class="slider__caption">
+
+                    <div class="slider__caption-inner">
+                        <div class="slider__info">
+                            <strong>10 лет</strong>
+                            <span class="bg">помогаем с учёбой</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slider__content" style="background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(https://st03.kakprosto.ru/images/article/2011/4/19/1_525512b566fd6525512b567012.jpg);">
+                <div class="slider__caption">
+
+                    <div class="slider__caption-inner">
+                        <div class="slider__info">
+                            <strong>БОЛЕЕ ТЫСЯЧИ</strong>
+                            <span class="bg">проектов</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </header>
+
+    <main class="main">
+
+        <div class="container">
+            <div class="description">
+
+                <div class="description__header">
+                    <h3 class="description__title">
+                        ГОТОВЫ ПОМОЧЬ ВАМ С ЛЮБЫМ ПРЕДМЕТОМ ПОЧТИ ЗА БЕСПЛАТНО
+                    </h3>
+
+                </div>
+
+                <p class="description__text">
+                    Наша команда готова дать вам гарантию в том, что вы сдадите все предметы успешно.
+                </p>
+                <p class="description__text">
+                    Мы реализуем работы разной сложности.
+                </p>
+
+                <div class="description__body">
+
+                    <div class="description__column">
+                        <div class="description__item" style="background-image: url(https://peopletalk.ru/userfiles/images/photodune-3414091-group-of-business-people-working-at-office-m-1.jpg);">
+                            <h4 class="description__heading">
+                                <strong>Дипломные</strong>
+                                <span class="bg">работы</span>
+                            </h4>
+                            <div class="description__info">
+                                <h5 class="description__subheading">
+                                    ДИПЛОМНЫЕ РАБОТЫ
+                                </h5>
+                                <p class="description__info-text">
+                                   Дипломные работы, готовятся за 10 дней, любой предмет за довольно дешёвую цену:
+                                </p>
+                                <ul class="description__list">
+                                    <li class="description__list-item">
+                                        Полностью оригинальные работы, который проходят проверку на плагиат
+                                    </li>
+                                    <li class="description__list-item">
+                                        У вас есть возможность выбрать человека, который делает проект
+                                    </li>
+                                    <li class="description__list-item">
+                                        Вы можете контролировать весь процесс от и до
+                                    </li>
+                                    <li class="description__list-item">
+                                        Ввод в работу с пояснениями
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="tree-line"></div>
+                        </div>
+                    </div>
+
+                    <div class="description__column">
+                        <div class="description__item" style="background-image: url(https://prigorod.info/images/places/nizhegorodskaya-oblast/attrakciony-razvlecheniya-torgovlya/biznes-centr-penthaus-palas-v-nizhnem-novgorode/1.jpg);">
+                            <h4 class="description__heading">
+                                <strong>ГОТОВЫЕ</strong>
+                                <span class="bg">РЕФЕРАТЫ</span>
+                            </h4>
+                            <div class="description__info">
+                                <h5 class="description__subheading">
+                                    ГОТОВЫЕ РЕФЕРАТЫ
+                                </h5>
+                                <p class="description__info-text">
+                                    Готовы осуществлять работы разного уровня и сложности, а также брать на себя презентации, текстовые документации. Работу возможно заказть не только людям, обучающимся в высших заведениях, но и в средних, а также в средне-профессиональных
+                                </p>
+                            </div>
+                            <div class="tree-line"></div>
+                        </div>
+                    </div>
+
+                    <div class="description__column">
+                        <div class="description__item" style="background-image: url(https://www.zastavki.com/pictures/originals/2013/Movies_Business_people_054448_.jpg);">
+                            <h4 class="description__heading">
+                                <strong>КУРСОВЫЕ</strong>
+                                <span class="bg">РАБОТЫ</span>
+                            </h4>
+                            <div class="description__info">
+                                <h5 class="description__subheading">
+                                    КУРСОВЫЕ РАБОТЫ
+                                </h5>
+                                <p class="description__info-text">
+                                    Дипломные работы, готовятся за 7 дней, любой предмет за довольно дешёвую цену:
+                                <ul class="description__list">
+                                    <li class="description__list-item">
+                                        Полностью оригинальные работы, который проходят проверку на плагиат
+                                    </li>
+                                    <li class="description__list-item">
+                                        У вас есть возможность выбрать человека, который делает проект
+                                    </li>
+                                    <li class="description__list-item">
+                                        Вы можете контролировать весь процесс от и до
+                                    </li>
+                                    <li class="description__list-item">
+                                        Ввод в работу с пояснениями
+                                    </li>
+                                </ul>
+                                </p>
+                            </div>
+                            <div class="tree-line"></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="projects">
+            <div class="projects__row-slider">
+
+                <div class="projects__slider-photo">
+
+                    <div class="projects__images" style="background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://fikiwiki.com/uploads/posts/2022-02/1644878466_12-fikiwiki-com-p-kartinki-formuli-po-khimii-16.jpg);">
+
+                        <div class="projects__box">
+                            <div class="projects__content">
+                                <h3 class="projects__title">
+                                    <strong>Лучшие</strong>
+                                    <span class="bg">предметы</span>
+                                </h3>
+                            </div>
+                        </div>
+
+                        <div class="projects__feedback">
+                            <button class="projects__btn projects-btn">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30" height="30">
+                                    <path class="svg-patch" fill="#f8ae03" d="M23.121,9.069,15.536,1.483a5.008,5.008,0,0,0-7.072,0L.879,9.069A2.978,2.978,0,0,0,0,11.19v9.817a3,3,0,0,0,3,3H21a3,3,0,0,0,3-3V11.19A2.978,2.978,0,0,0,23.121,9.069ZM15,22.007H9V18.073a3,3,0,0,1,6,0Zm7-1a1,1,0,0,1-1,1H17V18.073a5,5,0,0,0-10,0v3.934H3a1,1,0,0,1-1-1V11.19a1.008,1.008,0,0,1,.293-.707L9.878,2.9a3.008,3.008,0,0,1,4.244,0l7.585,7.586A1.008,1.008,0,0,1,22,11.19Z"/>
+                                </svg>
+                                <strong>заказать</strong>
+                                <span>проект</span>
+                            </button>
+                            <button class="projects__btn call-btn">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve" width="30" height="30">
+                                                <g>
+                                                    <g>
+                                                        <path class="svg-patch" fill="#f8ae03" style="fill-rule:evenodd;clip-rule:evenodd;" d="M20.463,3.488C18.217,1.24,15.231,0.001,12.05,0    C5.495,0,0.16,5.334,0.157,11.892c-0.001,2.096,0.547,4.142,1.588,5.946L0.057,24l6.304-1.654    c1.737,0.948,3.693,1.447,5.683,1.448h0.005c6.554,0,11.89-5.335,11.893-11.893C23.944,8.724,22.708,5.735,20.463,3.488z     M12.05,21.785h-0.004c-1.774,0-3.513-0.477-5.031-1.378l-0.361-0.214l-3.741,0.981l0.999-3.648l-0.235-0.374    c-0.99-1.574-1.512-3.393-1.511-5.26c0.002-5.45,4.437-9.884,9.889-9.884c2.64,0,5.122,1.03,6.988,2.898    c1.866,1.869,2.893,4.352,2.892,6.993C21.932,17.351,17.498,21.785,12.05,21.785z M17.472,14.382    c-0.297-0.149-1.758-0.868-2.031-0.967c-0.272-0.099-0.47-0.149-0.669,0.148s-0.767,0.967-0.941,1.166    c-0.173,0.198-0.347,0.223-0.644,0.074c-0.297-0.149-1.255-0.462-2.39-1.475c-0.883-0.788-1.48-1.761-1.653-2.059    s-0.018-0.458,0.13-0.606c0.134-0.133,0.297-0.347,0.446-0.521C9.87,9.97,9.919,9.846,10.019,9.647    c0.099-0.198,0.05-0.372-0.025-0.521C9.919,8.978,9.325,7.515,9.078,6.92c-0.241-0.58-0.486-0.501-0.669-0.51    C8.236,6.401,8.038,6.4,7.839,6.4c-0.198,0-0.52,0.074-0.792,0.372c-0.272,0.298-1.04,1.017-1.04,2.479    c0,1.463,1.065,2.876,1.213,3.074c0.148,0.198,2.095,3.2,5.076,4.487c0.709,0.306,1.263,0.489,1.694,0.626    c0.712,0.226,1.36,0.194,1.872,0.118c0.571-0.085,1.758-0.719,2.006-1.413c0.248-0.694,0.248-1.29,0.173-1.413    C17.967,14.605,17.769,14.531,17.472,14.382z"/>
+                                                    </g>
+                                                </g>
+                                                </svg>
+                                <strong>заказать</strong>
+                                <span>звонок</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="projects__images" style="background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://sun9-17.userapi.com/impg/hOEdMbrKkCyXZw615AlSSdxOic5Eyn5ZidIjXg/L1LKpDtq_oE.jpg?size=604x403&quality=96&sign=63cacf88157014f50b731c39019ba198&type=album);">
+                        <div class="projects__box">
+                            <div class="projects__content">
+                                <h3 class="projects__title">
+                                    <strong>Лучшие</strong>
+                                    <span class="bg">предметы</span>
+                                </h3>
+                            </div>
+                        </div>
+
+                        <div class="projects__feedback">
+                            <button class="projects__btn projects-btn">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30" height="30">
+                                    <path class="svg-patch" fill="#f8ae03" d="M23.121,9.069,15.536,1.483a5.008,5.008,0,0,0-7.072,0L.879,9.069A2.978,2.978,0,0,0,0,11.19v9.817a3,3,0,0,0,3,3H21a3,3,0,0,0,3-3V11.19A2.978,2.978,0,0,0,23.121,9.069ZM15,22.007H9V18.073a3,3,0,0,1,6,0Zm7-1a1,1,0,0,1-1,1H17V18.073a5,5,0,0,0-10,0v3.934H3a1,1,0,0,1-1-1V11.19a1.008,1.008,0,0,1,.293-.707L9.878,2.9a3.008,3.008,0,0,1,4.244,0l7.585,7.586A1.008,1.008,0,0,1,22,11.19Z"/>
+                                </svg>
+                                <strong>заказать</strong>
+                                <span>проект</span>
+                            </button>
+                            <button class="projects__btn call-btn">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve" width="30" height="30">
+                                                <g>
+                                                    <g>
+                                                        <path class="svg-patch" fill="#f8ae03" style="fill-rule:evenodd;clip-rule:evenodd;" d="M20.463,3.488C18.217,1.24,15.231,0.001,12.05,0    C5.495,0,0.16,5.334,0.157,11.892c-0.001,2.096,0.547,4.142,1.588,5.946L0.057,24l6.304-1.654    c1.737,0.948,3.693,1.447,5.683,1.448h0.005c6.554,0,11.89-5.335,11.893-11.893C23.944,8.724,22.708,5.735,20.463,3.488z     M12.05,21.785h-0.004c-1.774,0-3.513-0.477-5.031-1.378l-0.361-0.214l-3.741,0.981l0.999-3.648l-0.235-0.374    c-0.99-1.574-1.512-3.393-1.511-5.26c0.002-5.45,4.437-9.884,9.889-9.884c2.64,0,5.122,1.03,6.988,2.898    c1.866,1.869,2.893,4.352,2.892,6.993C21.932,17.351,17.498,21.785,12.05,21.785z M17.472,14.382    c-0.297-0.149-1.758-0.868-2.031-0.967c-0.272-0.099-0.47-0.149-0.669,0.148s-0.767,0.967-0.941,1.166    c-0.173,0.198-0.347,0.223-0.644,0.074c-0.297-0.149-1.255-0.462-2.39-1.475c-0.883-0.788-1.48-1.761-1.653-2.059    s-0.018-0.458,0.13-0.606c0.134-0.133,0.297-0.347,0.446-0.521C9.87,9.97,9.919,9.846,10.019,9.647    c0.099-0.198,0.05-0.372-0.025-0.521C9.919,8.978,9.325,7.515,9.078,6.92c-0.241-0.58-0.486-0.501-0.669-0.51    C8.236,6.401,8.038,6.4,7.839,6.4c-0.198,0-0.52,0.074-0.792,0.372c-0.272,0.298-1.04,1.017-1.04,2.479    c0,1.463,1.065,2.876,1.213,3.074c0.148,0.198,2.095,3.2,5.076,4.487c0.709,0.306,1.263,0.489,1.694,0.626    c0.712,0.226,1.36,0.194,1.872,0.118c0.571-0.085,1.758-0.719,2.006-1.413c0.248-0.694,0.248-1.29,0.173-1.413    C17.967,14.605,17.769,14.531,17.472,14.382z"/>
+                                                    </g>
+                                                </g>
+                                                </svg>
+                                <strong>заказать</strong>
+                                <span>звонок</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="projects__images" style="background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://sun9-36.userapi.com/s/v1/if1/6VYaIPZhzBpr4WJZ6s8teHFRk0w9PuDdJK91BpFCBEfrFp4oPFhTfH2xrA6bhU-NiHXml6PP.jpg?size=604x484&quality=96&type=album);">
+                        <div class="projects__box">
+                            <div class="projects__content">
+                                <h3 class="projects__title">
+                                    <strong>Лучшие</strong>
+                                    <span class="bg">предметы</span>
+                                </h3>
+                            </div>
+                        </div>
+
+                        <div class="projects__feedback">
+                            <button class="projects__btn projects-btn">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30" height="30">
+                                    <path class="svg-patch" fill="#f8ae03" d="M23.121,9.069,15.536,1.483a5.008,5.008,0,0,0-7.072,0L.879,9.069A2.978,2.978,0,0,0,0,11.19v9.817a3,3,0,0,0,3,3H21a3,3,0,0,0,3-3V11.19A2.978,2.978,0,0,0,23.121,9.069ZM15,22.007H9V18.073a3,3,0,0,1,6,0Zm7-1a1,1,0,0,1-1,1H17V18.073a5,5,0,0,0-10,0v3.934H3a1,1,0,0,1-1-1V11.19a1.008,1.008,0,0,1,.293-.707L9.878,2.9a3.008,3.008,0,0,1,4.244,0l7.585,7.586A1.008,1.008,0,0,1,22,11.19Z"/>
+                                </svg>
+                                <strong>заказать</strong>
+                                <span>проект</span>
+                            </button>
+                            <button class="projects__btn call-btn">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve" width="30" height="30">
+                                                <g>
+                                                    <g>
+                                                        <path class="svg-patch" fill="#f8ae03" style="fill-rule:evenodd;clip-rule:evenodd;" d="M20.463,3.488C18.217,1.24,15.231,0.001,12.05,0    C5.495,0,0.16,5.334,0.157,11.892c-0.001,2.096,0.547,4.142,1.588,5.946L0.057,24l6.304-1.654    c1.737,0.948,3.693,1.447,5.683,1.448h0.005c6.554,0,11.89-5.335,11.893-11.893C23.944,8.724,22.708,5.735,20.463,3.488z     M12.05,21.785h-0.004c-1.774,0-3.513-0.477-5.031-1.378l-0.361-0.214l-3.741,0.981l0.999-3.648l-0.235-0.374    c-0.99-1.574-1.512-3.393-1.511-5.26c0.002-5.45,4.437-9.884,9.889-9.884c2.64,0,5.122,1.03,6.988,2.898    c1.866,1.869,2.893,4.352,2.892,6.993C21.932,17.351,17.498,21.785,12.05,21.785z M17.472,14.382    c-0.297-0.149-1.758-0.868-2.031-0.967c-0.272-0.099-0.47-0.149-0.669,0.148s-0.767,0.967-0.941,1.166    c-0.173,0.198-0.347,0.223-0.644,0.074c-0.297-0.149-1.255-0.462-2.39-1.475c-0.883-0.788-1.48-1.761-1.653-2.059    s-0.018-0.458,0.13-0.606c0.134-0.133,0.297-0.347,0.446-0.521C9.87,9.97,9.919,9.846,10.019,9.647    c0.099-0.198,0.05-0.372-0.025-0.521C9.919,8.978,9.325,7.515,9.078,6.92c-0.241-0.58-0.486-0.501-0.669-0.51    C8.236,6.401,8.038,6.4,7.839,6.4c-0.198,0-0.52,0.074-0.792,0.372c-0.272,0.298-1.04,1.017-1.04,2.479    c0,1.463,1.065,2.876,1.213,3.074c0.148,0.198,2.095,3.2,5.076,4.487c0.709,0.306,1.263,0.489,1.694,0.626    c0.712,0.226,1.36,0.194,1.872,0.118c0.571-0.085,1.758-0.719,2.006-1.413c0.248-0.694,0.248-1.29,0.173-1.413    C17.967,14.605,17.769,14.531,17.472,14.382z"/>
+                                                    </g>
+                                                </g>
+                                                </svg>
+                                <strong>заказать</strong>
+                                <span>звонок</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="projects__images" style="background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://smapse.com/storage/2021/06/povisit-kachestvo-yazika-smapse-1.jpg);">
+                        <div class="projects__box">
+                            <div class="projects__content">
+                                <h3 class="projects__title">
+                                    <strong>Лучшие</strong>
+                                    <span class="bg">предметы</span>
+                                </h3>
+                            </div>
+                        </div>
+
+                        <div class="projects__feedback">
+                            <button class="projects__btn projects-btn">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30" height="30">
+                                    <path class="svg-patch" fill="#f8ae03" d="M23.121,9.069,15.536,1.483a5.008,5.008,0,0,0-7.072,0L.879,9.069A2.978,2.978,0,0,0,0,11.19v9.817a3,3,0,0,0,3,3H21a3,3,0,0,0,3-3V11.19A2.978,2.978,0,0,0,23.121,9.069ZM15,22.007H9V18.073a3,3,0,0,1,6,0Zm7-1a1,1,0,0,1-1,1H17V18.073a5,5,0,0,0-10,0v3.934H3a1,1,0,0,1-1-1V11.19a1.008,1.008,0,0,1,.293-.707L9.878,2.9a3.008,3.008,0,0,1,4.244,0l7.585,7.586A1.008,1.008,0,0,1,22,11.19Z"/>
+                                </svg>
+                                <strong>заказать</strong>
+                                <span>проект</span>
+                            </button>
+                            <button class="projects__btn call-btn">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve" width="30" height="30">
+                                                <g>
+                                                    <g>
+                                                        <path class="svg-patch" fill="#f8ae03" style="fill-rule:evenodd;clip-rule:evenodd;" d="M20.463,3.488C18.217,1.24,15.231,0.001,12.05,0    C5.495,0,0.16,5.334,0.157,11.892c-0.001,2.096,0.547,4.142,1.588,5.946L0.057,24l6.304-1.654    c1.737,0.948,3.693,1.447,5.683,1.448h0.005c6.554,0,11.89-5.335,11.893-11.893C23.944,8.724,22.708,5.735,20.463,3.488z     M12.05,21.785h-0.004c-1.774,0-3.513-0.477-5.031-1.378l-0.361-0.214l-3.741,0.981l0.999-3.648l-0.235-0.374    c-0.99-1.574-1.512-3.393-1.511-5.26c0.002-5.45,4.437-9.884,9.889-9.884c2.64,0,5.122,1.03,6.988,2.898    c1.866,1.869,2.893,4.352,2.892,6.993C21.932,17.351,17.498,21.785,12.05,21.785z M17.472,14.382    c-0.297-0.149-1.758-0.868-2.031-0.967c-0.272-0.099-0.47-0.149-0.669,0.148s-0.767,0.967-0.941,1.166    c-0.173,0.198-0.347,0.223-0.644,0.074c-0.297-0.149-1.255-0.462-2.39-1.475c-0.883-0.788-1.48-1.761-1.653-2.059    s-0.018-0.458,0.13-0.606c0.134-0.133,0.297-0.347,0.446-0.521C9.87,9.97,9.919,9.846,10.019,9.647    c0.099-0.198,0.05-0.372-0.025-0.521C9.919,8.978,9.325,7.515,9.078,6.92c-0.241-0.58-0.486-0.501-0.669-0.51    C8.236,6.401,8.038,6.4,7.839,6.4c-0.198,0-0.52,0.074-0.792,0.372c-0.272,0.298-1.04,1.017-1.04,2.479    c0,1.463,1.065,2.876,1.213,3.074c0.148,0.198,2.095,3.2,5.076,4.487c0.709,0.306,1.263,0.489,1.694,0.626    c0.712,0.226,1.36,0.194,1.872,0.118c0.571-0.085,1.758-0.719,2.006-1.413c0.248-0.694,0.248-1.29,0.173-1.413    C17.967,14.605,17.769,14.531,17.472,14.382z"/>
+                                                    </g>
+                                                </g>
+                                                </svg>
+                                <strong>заказать</strong>
+                                <span>звонок</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="projects__images" style="background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://avatars.mds.yandex.net/get-zen_doc/51081/pub_5d60331080879d00ad9c995f_5d6047ececfb8000ad17396a/scale_1200);">
+                        <div class="projects__box">
+                            <div class="projects__content">
+                                <h3 class="projects__title">
+                                    <strong>Лучшие</strong>
+                                    <span class="bg">предметы</span>
+                                </h3>
+                            </div>
+                        </div>
+
+                        <div class="projects__feedback">
+                            <button class="projects__btn projects-btn">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30" height="30">
+                                    <path class="svg-patch" fill="#f8ae03" d="M23.121,9.069,15.536,1.483a5.008,5.008,0,0,0-7.072,0L.879,9.069A2.978,2.978,0,0,0,0,11.19v9.817a3,3,0,0,0,3,3H21a3,3,0,0,0,3-3V11.19A2.978,2.978,0,0,0,23.121,9.069ZM15,22.007H9V18.073a3,3,0,0,1,6,0Zm7-1a1,1,0,0,1-1,1H17V18.073a5,5,0,0,0-10,0v3.934H3a1,1,0,0,1-1-1V11.19a1.008,1.008,0,0,1,.293-.707L9.878,2.9a3.008,3.008,0,0,1,4.244,0l7.585,7.586A1.008,1.008,0,0,1,22,11.19Z"/>
+                                </svg>
+                                <strong>заказать</strong>
+                                <span>проект</span>
+                            </button>
+                            <button class="projects__btn call-btn">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve" width="30" height="30">
+                                                <g>
+                                                    <g>
+                                                        <path class="svg-patch" fill="#f8ae03" style="fill-rule:evenodd;clip-rule:evenodd;" d="M20.463,3.488C18.217,1.24,15.231,0.001,12.05,0    C5.495,0,0.16,5.334,0.157,11.892c-0.001,2.096,0.547,4.142,1.588,5.946L0.057,24l6.304-1.654    c1.737,0.948,3.693,1.447,5.683,1.448h0.005c6.554,0,11.89-5.335,11.893-11.893C23.944,8.724,22.708,5.735,20.463,3.488z     M12.05,21.785h-0.004c-1.774,0-3.513-0.477-5.031-1.378l-0.361-0.214l-3.741,0.981l0.999-3.648l-0.235-0.374    c-0.99-1.574-1.512-3.393-1.511-5.26c0.002-5.45,4.437-9.884,9.889-9.884c2.64,0,5.122,1.03,6.988,2.898    c1.866,1.869,2.893,4.352,2.892,6.993C21.932,17.351,17.498,21.785,12.05,21.785z M17.472,14.382    c-0.297-0.149-1.758-0.868-2.031-0.967c-0.272-0.099-0.47-0.149-0.669,0.148s-0.767,0.967-0.941,1.166    c-0.173,0.198-0.347,0.223-0.644,0.074c-0.297-0.149-1.255-0.462-2.39-1.475c-0.883-0.788-1.48-1.761-1.653-2.059    s-0.018-0.458,0.13-0.606c0.134-0.133,0.297-0.347,0.446-0.521C9.87,9.97,9.919,9.846,10.019,9.647    c0.099-0.198,0.05-0.372-0.025-0.521C9.919,8.978,9.325,7.515,9.078,6.92c-0.241-0.58-0.486-0.501-0.669-0.51    C8.236,6.401,8.038,6.4,7.839,6.4c-0.198,0-0.52,0.074-0.792,0.372c-0.272,0.298-1.04,1.017-1.04,2.479    c0,1.463,1.065,2.876,1.213,3.074c0.148,0.198,2.095,3.2,5.076,4.487c0.709,0.306,1.263,0.489,1.694,0.626    c0.712,0.226,1.36,0.194,1.872,0.118c0.571-0.085,1.758-0.719,2.006-1.413c0.248-0.694,0.248-1.29,0.173-1.413    C17.967,14.605,17.769,14.531,17.472,14.382z"/>
+                                                    </g>
+                                                </g>
+                                                </svg>
+                                <strong>заказать</strong>
+                                <span>звонок</span>
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="projects__slider-info">
+                    <div class="projects__inner-info">
+                        <h4 class="projects__heading">
+                            Химия. Готовые рефераты, дипломы, курсовые работы
+                        </h4>
+                        <p class="projects__text">
+                            У нас есть коллектив из 10 химиков: 3 - химика-стажировщика, 4 - химика среднего уровня со стажем в 10 лет, 3 - химика, которые проработали в этой сфере более 30 лет.<br>
+                            Работы по химии могут делаться от 3-х дней, гарантированная оценка - 3, стоимость работы начинается от 360-ти рублей
+                        </p>
+                        <h4 class="projects__heading">работы по темам</h4>
+                        <ul class="projects__list">
+                            <li class="projects__item list-item__minus">
+                                Выпаривание раствора аммиачной селитры.
+                            </li>
+                            <li class="projects__item list-item__plus">
+                                Синтез фосфазенсодержащих акриловых полимеров.
+                            </li>
+                            <li class="projects__item list-item__plus">
+                                Влияние растворителя на кинетику органических реакций.
+                            </li>
+                            <li class="projects__item list-item__plus">
+                                Свойства битумов.
+                            </li>
+                            <li class="projects__item list-item__plus">
+                                Рефрактометрический метод анализа в химии.
+                            </li>
+                            <li class="projects__item list-item__plus">
+                                Расчет насадочного абсорбера.
+                            </li>
+                            <li class="projects__item list-item__plus">
+                                Производство аммиака.
+                            </li>
+                            <li class="projects__item list-item__plus">
+                                Применение метода абсорбции при осушке газов.
+                            </li>
+                            <li class="projects__item list-item__plus">
+                                Получение аллилового спирта гидролизом хлористого аллила.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="projects__inner-info">
+                        <h4 class="projects__heading">
+                            Физика. Готовые рефераты, дипломы, курсовые работы
+                        </h4>
+                        <p class="projects__text">
+                            У нас есть коллектив из 7 физиков: 1 - физик-стажировщик, 7 - физиков среднего уровня со стажем в 10 лет, 4 - физика, которые проработали в этой сфере более 30 лет.<br>
+                            Работы по физике могут делаться от 2-х дней, гарантированная оценка - 3, стоимость работы начинается от 470-ти рублей
+                        </p>
+                        <h4 class="projects__heading">Темы работ</h4>
+                        <ul class="projects__list">
+                            <li class="projects__item list-item__plus">
+                                Широтно-импульсные преобразователи
+                            </li>
+                            <li class="projects__item list-item__plus">
+                                Высоковольтный колонковый элегазовый выключатель
+                            </li>
+                            <li class="projects__item list-item__plus">
+                                Значение Зуевской гидроэлектростанции
+                            </li>
+                            <li class="projects__item list-item__plus">
+                                Выбор схем распределительных устройств
+                            </li>
+                            <li class="projects__item list-item__plus">
+                                Внешнее электроснабжение промышленного района
+                            </li>
+                            <li class="projects__item list-item__plus">
+                                Система электроснабжения поселка
+                            </li>
+                            <li class="projects__item list-item__plus">
+                                Система электропривода постоянного тока большой мощности
+                            </li>
+                            <li class="projects__item list-item__plus">
+                                Разработка методологии компенсации реактивной мощности на промышленном предприятии
+                            </li>
+                            <li class="projects__item list-item__plus">
+                                Разработка районной сети электроэнергии
+                            </li>
+                            <li class="projects__item list-item__plus">
+                                Разработка электрической части теплоэлектроцентрали
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="projects__inner-info">
+                        <h4 class="projects__heading">
+                            Философия. Готовые рефераты, дипломы, курсовые работы
+                        </h4>
+                        <p class="projects__text">
+                            У нас есть коллектив из 5 философов: 2 - философа среднего уровня со стажем в 10 лет, 3 - философа, которые проработали в этой сфере более 30 лет.<br>
+                            Работы по философии могут делаться от 5-ти дней, гарантированная оценка - 4, стоимость работы начинается от 700-та рублей
+                        </p>
+                        <h4 class="projects__heading">Темы проектов</h4>
+                        <ul class="projects__list">
+                            <li class="projects__item list-item__plus">
+                                Творчество, присущее философии Фридриха Ницше
+                            </li>
+                            <li class="projects__item list-item__plus">
+                                Учение Карлоса Кастанеда
+                            </li>
+                            <li class="projects__item list-item__plus">
+                                Смыслы творчества, присущие философии Фридриха Ницше
+                            </li>
+                            <li class="projects__item list-item__plus">
+                                Проблема исхождения в учении Прокла Диадоха
+                            </li>
+                            <li class="projects__item list-item__plus">
+                                Понятие феномена красоты в философской интерпретации Лосского, Франка, Леонтьева
+                            </li>
+                            <li class="projects__item list-item__plus">
+                                Научное знание
+                            </li>
+                            <li class="projects__item list-item__plus">
+                                Материя и субъективность
+                            </li>
+                            <li class="projects__item list-item__plus">
+                                Категорический императив И. Канта
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="projects__inner-info">
+                        <h4 class="projects__heading">
+                            Языки. Готовые рефераты, дипломы, курсовые работы
+                        </h4>
+                        <p class="projects__text">
+                            У нас есть коллектив из 15 филологов-лингвистов: 3 - филологв-лингвиста-стажировщика, 7 - филологов-лингвистов среднего уровня со стажем в 10 лет, 5 - филологов-лингвистов, которые проработали в этой сфере более 30 лет.<br>
+                            Работы по языкам могут делаться от 2-х дней, гарантированная оценка - 3, стоимость работы начинается от 470-ти рублей
+
+                        </p>
+                        <h4 class="projects__heading">Работы по проекту</h4>
+                        <ul class="projects__list">
+                            <li class="projects__item list-item__plus">
+                                Значение времени присубстантивного инфинитива
+                            </li>
+                            <li class="projects__item list-item__plus">
+                                Заимствования как способ пополнения французского языка
+                            </li>
+                            <li class="projects__item list-item__plus">
+                                Виртуальный дискурс как особый вид дискурса
+                            </li>
+                            <li class="projects__item list-item__plus">
+                                Трудности перевода гендерных метафор
+                            </li>
+                            <li class="projects__item list-item__plus">
+                                Жесты касания и их репрезентация в современном английском языке
+                            </li>
+                            <li class="projects__item list-item__plus">
+                                Типы орфографической языковой личности
+                            </li>
+                            <li class="projects__item list-item__plus">
+                                Теоретические основы применения компьютерных технологий в процессе обучения иностранному языку
+                            </li>
+                            <li class="projects__item list-item__plus">
+                                Значение наглядности в процессе обучения английского языка
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="projects__inner-info">
+                        <h4 class="projects__heading">
+                            Математика. Готовые рефераты, дипломы, курсовые работы
+                        </h4>
+                        <p class="projects__text">
+                            У нас есть коллектив из 14 математиков: 3 - математика-стажировщика, 7 - математиков среднего уровня со стажем в 10 лет, 3 - математика, которые проработали в этой сфере более 30 лет.<br>
+                            Работы по математике могут делаться от 3-х дней, гарантированная оценка - 4, стоимость работы начинается от 560-ти рублей
+                        </p>
+                        <h4 class="projects__heading">работы по проекту</h4>
+                        <ul class="projects__list">
+                            <li class="projects__item list-item__plus">
+                                Синтез и исследование логической схемы при кубическом задании булевой функции
+                            </li>
+                            <li class="projects__item list-item__plus">
+                                Сингулярное разложение в линейной задаче метода наименьших квадратов
+                            </li>
+                            <li class="projects__item list-item__plus">
+                                Псевдоевклидово пространство
+                            </li>
+                            <li class="projects__item list-item__plus">
+                                Поиск максимальных потоков в сетях
+                            </li>
+                            <li class="projects__item list-item__plus">
+                                Положительные и ограниченные полукольца
+                            </li>
+                            <li class="projects__item list-item__plus">
+                                Математические методы проектирования
+                            </li>
+                            <li class="projects__item list-item__plus">
+                                Математические основы системы остаточных классов
+                            </li>
+                            <li class="projects__item list-item__plus">
+                                Моделирование прыжка с трамплина
+                            </li>
+                            <li class="projects__item list-item__plus">
+                                Настоящая теория чисел
+                            </li>
+                            <li class="projects__item list-item__plus">
+                                Некоторые задачи оптимизации в экономике
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="contact-customers">
+            <div class="contact-customers__this">
+                <div class="contact-customers__body">
+
+                    <div class="contact-customers__contact">
+                        <h4 class="contact-customers__title title">остаВить ЗаЯвКУ</h4>
+                        <form class="contact-customers__form" action="#" method="post">
+                            <div class="contact-customers__input-box">
+                                <input class="contact-customers__name" type="text" name="name" placeholder="Имя">
+                                <input class="contact-customers__phone" type="tel" name="phone" placeholder="Телефон">
+                            </div>
+                            <textarea class="contact-customers__textarea" name="" placeholder="Сообщение"></textarea>
+                            <label class="contact-customers__label">
+                                <input class="checkbox-true" type="checkbox" name="privacy-policy" checked>
+                                <span class="checkbox-false"></span>
+                                <span class="checkbox-text">Подтверждаю согласие на обработку своих персональных данных</span>
+                            </label>
+                            <button class="contact-customers__btn btn" type="submit">Отправить</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+
+
+
+
+
+
+
+
+    <div class="footer">
+        <div class="footer__content">
+            <ul class="footer__list">
+                <li class="footer__item">
+                    <h4 class="footer__heading">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                            <path class="svg-patch" fill="#f8ae03" d="M13,2.051V1a1,1,0,0,0-2,0V2.051A10.98,10.98,0,0,0,3.681,20.176,3.024,3.024,0,0,0,2,23a1,1,0,0,0,2,0,1.2,1.2,0,0,1,1.11-1.229.932.932,0,0,0,.2-.062,10.924,10.924,0,0,0,13.39,0,1.033,1.033,0,0,0,.182.064A1.2,1.2,0,0,1,20,23a1,1,0,0,0,2,0,3.024,3.024,0,0,0-1.681-2.824A10.98,10.98,0,0,0,13,2.051ZM3,13a9,9,0,1,1,9,9A9.011,9.011,0,0,1,3,13Z"></path>
+                            <path class="svg-patch" fill="#f8ae03" d="M19.215,0a1,1,0,0,0,0,2A2.59,2.59,0,0,1,22,4.5a1,1,0,0,0,2,0A4.6,4.6,0,0,0,19.215,0Z"></path>
+                            <path class="svg-patch" fill="#f8ae03" d="M2,4.5A2.59,2.59,0,0,1,4.785,2a1,1,0,0,0,0-2A4.6,4.6,0,0,0,0,4.5a1,1,0,0,0,2,0Z"></path>
+                            <path class="svg-patch" fill="#f8ae03" d="M13,11.586V7a1,1,0,0,0-2,0v5a1,1,0,0,0,.293.707l3,3a1,1,0,0,0,1.414-1.414Z"></path>
+                        </svg>
+                        <b>РАБОЧИЕ ДНИ</b>
+                    </h4>
+                    <p class="footer__text">пн-пт с <time>9-00</time> до <time>18-00</time></p>
+                </li>
+                <li class="footer__item">
+                    <h4 class="footer__heading">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="#f8ae03" viewBox="0 0 24 24" width="24" height="24">
+                            <path class="svg-patch" d="M13,1a1,1,0,0,1,1-1A10.011,10.011,0,0,1,24,10a1,1,0,0,1-2,0,8.009,8.009,0,0,0-8-8A1,1,0,0,1,13,1Zm1,5a4,4,0,0,1,4,4,1,1,0,0,0,2,0,6.006,6.006,0,0,0-6-6,1,1,0,0,0,0,2Zm9.093,10.739a3.1,3.1,0,0,1,0,4.378l-.91,1.049c-8.19,7.841-28.12-12.084-20.4-20.3l1.15-1A3.081,3.081,0,0,1,7.26.906c.031.031,1.884,2.438,1.884,2.438a3.1,3.1,0,0,1-.007,4.282L7.979,9.082a12.781,12.781,0,0,0,6.931,6.945l1.465-1.165a3.1,3.1,0,0,1,4.281-.006S23.062,16.708,23.093,16.739Zm-1.376,1.454s-2.393-1.841-2.424-1.872a1.1,1.1,0,0,0-1.549,0c-.027.028-2.044,1.635-2.044,1.635a1,1,0,0,1-.979.152A15.009,15.009,0,0,1,5.9,9.3a1,1,0,0,1,.145-1S7.652,6.282,7.679,6.256a1.1,1.1,0,0,0,0-1.549c-.031-.03-1.872-2.425-1.872-2.425a1.1,1.1,0,0,0-1.51.039l-1.15,1C-2.495,10.105,14.776,26.418,20.721,20.8l.911-1.05A1.121,1.121,0,0,0,21.717,18.193Z"></path>
+                        </svg>
+                        <b>КОНТАКТЫ</b>
+                    </h4>
+                    <p class="footer__text">
+                        <a href="tel:79200451002" class="footer__link">+7(920)045-10-02</a>
+                    </p>
+                </li>
+                <li class="footer__item">
+                    <h4 class="footer__heading">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="#f8ae03" viewBox="0 0 24 24" width="24" height="24">
+                            <path class="svg-patch" d="M19,1H5A5.006,5.006,0,0,0,0,6V18a5.006,5.006,0,0,0,5,5H19a5.006,5.006,0,0,0,5-5V6A5.006,5.006,0,0,0,19,1ZM5,3H19a3,3,0,0,1,2.78,1.887l-7.658,7.659a3.007,3.007,0,0,1-4.244,0L2.22,4.887A3,3,0,0,1,5,3ZM19,21H5a3,3,0,0,1-3-3V7.5L8.464,13.96a5.007,5.007,0,0,0,7.072,0L22,7.5V18A3,3,0,0,1,19,21Z"></path>
+                        </svg>
+                        <b>ПОЧТА</b>
+                    </h4>
+                    <p class="footer__text">
+                        <a href="mailto:rmzdorov@yandex.ru" class="footer__link">rmzdorov@yandex.ru</a>
+                    </p>
+                </li>
+                <li class="footer__item">
+                    <h4 class="footer__heading">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="#f8ae03" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve" width="24" height="24">
+                                            <g id="_01_align_center">
+                                                <path class="svg-patch" d="M255.104,512.171l-14.871-12.747C219.732,482.258,40.725,327.661,40.725,214.577c0-118.398,95.981-214.379,214.379-214.379   s214.379,95.981,214.379,214.379c0,113.085-179.007,267.682-199.423,284.932L255.104,512.171z M255.104,46.553   c-92.753,0.105-167.918,75.27-168.023,168.023c0,71.042,110.132,184.53,168.023,236.473   c57.892-51.964,168.023-165.517,168.023-236.473C423.022,121.823,347.858,46.659,255.104,46.553z"></path>
+                                                <path class="svg-patch" d="M255.104,299.555c-46.932,0-84.978-38.046-84.978-84.978s38.046-84.978,84.978-84.978s84.978,38.046,84.978,84.978   S302.037,299.555,255.104,299.555z M255.104,172.087c-23.466,0-42.489,19.023-42.489,42.489s19.023,42.489,42.489,42.489   s42.489-19.023,42.489-42.489S278.571,172.087,255.104,172.087z"></path>
+                                            </g>
+                                            </svg>
+                        <b>НАШ АДРЕС</b>
+                    </h4>
+                    <p class="footer__text">
+                        г. Н. Новгород<br> ул. Ясная, д.17 А
+                    </p>
+                </li>
+                <li class="footer__item">
+                    <h4 class="footer__heading">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="#f8ae03" viewBox="0 0 24 24" width="24" height="24">
+                            <path class="svg-patch" d="M12,0A12,12,0,1,0,24,12,12.013,12.013,0,0,0,12,0ZM22,12a9.938,9.938,0,0,1-1.662,5.508l-1.192-1.193A.5.5,0,0,1,19,15.962V15a3,3,0,0,0-3-3H13a1,1,0,0,1-1-1v-.5a.5.5,0,0,1,.5-.5A2.5,2.5,0,0,0,15,7.5v-1a.5.5,0,0,1,.5-.5h1.379a2.516,2.516,0,0,0,1.767-.732l.377-.377A9.969,9.969,0,0,1,22,12Zm-19.951.963,3.158,3.158A2.978,2.978,0,0,0,7.329,17H10a1,1,0,0,1,1,1v3.949A10.016,10.016,0,0,1,2.049,12.963ZM13,21.949V18a3,3,0,0,0-3-3H7.329a1,1,0,0,1-.708-.293L2.163,10.249A9.978,9.978,0,0,1,17.456,3.63l-.224.224A.507.507,0,0,1,16.879,4H15.5A2.5,2.5,0,0,0,13,6.5v1a.5.5,0,0,1-.5.5A2.5,2.5,0,0,0,10,10.5V11a3,3,0,0,0,3,3h3a1,1,0,0,1,1,1v.962a2.516,2.516,0,0,0,.732,1.767l1.337,1.337A9.971,9.971,0,0,1,13,21.949Z"></path>
+                        </svg>
+                        <b>ПОДПИСЫВАЙТЕСЬ</b>
+                    </h4>
+                    <ul class="footer__social-list">
+                        <li class="footer__social-item">
+                            <a href="https://www.facebook.com" class="footer__social-link">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve" width="20" height="20">
+                                                    <g>
+                                                        <path fill="#3b3b3b" class="svg-patch" d="M24,12.073c0,5.989-4.394,10.954-10.13,11.855v-8.363h2.789l0.531-3.46H13.87V9.86c0-0.947,0.464-1.869,1.95-1.869h1.509   V5.045c0,0-1.37-0.234-2.679-0.234c-2.734,0-4.52,1.657-4.52,4.656v2.637H7.091v3.46h3.039v8.363C4.395,23.025,0,18.061,0,12.073   c0-6.627,5.373-12,12-12S24,5.445,24,12.073z"></path>
+                                                    </g>
+                                                </svg>
+                            </a>
+                        </li>
+                        <li class="footer__social-item">
+                            <a href="https://twitter.com" class="footer__social-link">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve" width="20" height="20">
+                                                    <path class="svg-patch" fill="#3b3b3b" id="Logo_00000038394049246713568260000012923108920998390947_" d="M21.543,7.104c0.014,0.211,0.014,0.423,0.014,0.636  c0,6.507-4.954,14.01-14.01,14.01v-0.004C4.872,21.75,2.252,20.984,0,19.539c0.389,0.047,0.78,0.07,1.172,0.071  c2.218,0.002,4.372-0.742,6.115-2.112c-2.107-0.04-3.955-1.414-4.6-3.42c0.738,0.142,1.498,0.113,2.223-0.084  c-2.298-0.464-3.95-2.483-3.95-4.827c0-0.021,0-0.042,0-0.062c0.685,0.382,1.451,0.593,2.235,0.616  C1.031,8.276,0.363,5.398,1.67,3.148c2.5,3.076,6.189,4.946,10.148,5.145c-0.397-1.71,0.146-3.502,1.424-4.705  c1.983-1.865,5.102-1.769,6.967,0.214c1.103-0.217,2.16-0.622,3.127-1.195c-0.368,1.14-1.137,2.108-2.165,2.724  C22.148,5.214,23.101,4.953,24,4.555C23.339,5.544,22.507,6.407,21.543,7.104z"></path>
+                                                </svg>
+                            </a>
+                        </li>
+                        <li class="footer__social-item">
+                            <a href="https://www.instagram.com" class="footer__social-link">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve" width="20" height="20">
+                                                    <g>
+                                                        <path class="svg-patch" fill="#3b3b3b" d="M12,2.162c3.204,0,3.584,0.012,4.849,0.07c1.308,0.06,2.655,0.358,3.608,1.311c0.962,0.962,1.251,2.296,1.311,3.608   c0.058,1.265,0.07,1.645,0.07,4.849c0,3.204-0.012,3.584-0.07,4.849c-0.059,1.301-0.364,2.661-1.311,3.608   c-0.962,0.962-2.295,1.251-3.608,1.311c-1.265,0.058-1.645,0.07-4.849,0.07s-3.584-0.012-4.849-0.07   c-1.291-0.059-2.669-0.371-3.608-1.311c-0.957-0.957-1.251-2.304-1.311-3.608c-0.058-1.265-0.07-1.645-0.07-4.849   c0-3.204,0.012-3.584,0.07-4.849c0.059-1.296,0.367-2.664,1.311-3.608c0.96-0.96,2.299-1.251,3.608-1.311   C8.416,2.174,8.796,2.162,12,2.162 M12,0C8.741,0,8.332,0.014,7.052,0.072C5.197,0.157,3.355,0.673,2.014,2.014   C0.668,3.36,0.157,5.198,0.072,7.052C0.014,8.332,0,8.741,0,12c0,3.259,0.014,3.668,0.072,4.948c0.085,1.853,0.603,3.7,1.942,5.038   c1.345,1.345,3.186,1.857,5.038,1.942C8.332,23.986,8.741,24,12,24c3.259,0,3.668-0.014,4.948-0.072   c1.854-0.085,3.698-0.602,5.038-1.942c1.347-1.347,1.857-3.184,1.942-5.038C23.986,15.668,24,15.259,24,12   c0-3.259-0.014-3.668-0.072-4.948c-0.085-1.855-0.602-3.698-1.942-5.038c-1.343-1.343-3.189-1.858-5.038-1.942   C15.668,0.014,15.259,0,12,0z"></path>
+                                                        <path class="svg-patch" fill="#3b3b3b" d="M12,5.838c-3.403,0-6.162,2.759-6.162,6.162c0,3.403,2.759,6.162,6.162,6.162s6.162-2.759,6.162-6.162   C18.162,8.597,15.403,5.838,12,5.838z M12,16c-2.209,0-4-1.791-4-4s1.791-4,4-4s4,1.791,4,4S14.209,16,12,16z"></path>
+                                                        <circle class="svg-patch" fill="#3b3b3b" cx="18.406" cy="5.594" r="1.44"></circle>
+                                                    </g>
+                                                </svg>
+                            </a>
+                        </li>
+                        <li class="footer__social-item">
+                            <a href="https://www.youtube.com" class="footer__social-link">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve" width="20" height="20">
+                                                    <g id="XMLID_184_">
+                                                        <path class="svg-patch" fill="#3b3b3b" d="M23.498,6.186c-0.276-1.039-1.089-1.858-2.122-2.136C19.505,3.546,12,3.546,12,3.546s-7.505,0-9.377,0.504   C1.591,4.328,0.778,5.146,0.502,6.186C0,8.07,0,12,0,12s0,3.93,0.502,5.814c0.276,1.039,1.089,1.858,2.122,2.136   C4.495,20.454,12,20.454,12,20.454s7.505,0,9.377-0.504c1.032-0.278,1.845-1.096,2.122-2.136C24,15.93,24,12,24,12   S24,8.07,23.498,6.186z M9.546,15.569V8.431L15.818,12L9.546,15.569z"></path>
+                                                    </g>
+                                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="script.js"></script>
+<script src="slick.min.js"></script>
+</body>
+</html>
