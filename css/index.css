@@ -134,13 +134,12 @@ a {
 @media (max-width: 1350px) {
     .faq-wrap {
         margin: 0px 100px;
-        margin-bottom: 100px;
     }
 }
 
 @media (max-width: 800px) {
     .faq-wrap {
-        margin: 100px 10px;
+        margin: 0px 10px;
     }
 }
 
