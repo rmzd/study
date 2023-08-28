@@ -61,7 +61,9 @@ body {
 .main {
     -webkit-box-flex: 1;
     -ms-flex: 1 1 auto;
-    flex: 1 1 auto; }
+    flex: 1 1 auto; 
+    margin-top: 20px;
+}
 
 button {
     border: none;
@@ -74,7 +76,222 @@ button {
 
 a {
     text-decoration: none; }
+.menu {
+    margin-top: 25px;
+    padding: 15px 25px;
+    box-shadow: 0 0 20px rgb(0 0 0);
+    transition: 0.3s;
+    background-color: #cdcdde;
+    z-index: 1000;
+    width: 100%;
+}
+.menu-content {
+    font-weight: 700;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+.nav-content {
+    display: flex;
+    margin-left: 0;
+    font-size: 18px;
+}
+.nav-info {
+    padding: 0 10px;
+    margin: auto;
+}
+.custom-select {
+    position: relative;
+    font-family: Arial;
+}
 
+    .custom-select select {
+        display: none; /*hide original SELECT element: */
+    }
+
+.select-selected {
+    background-color: #ffffff;
+    color:#2e2e2e;
+    margin-bottom:10px;
+}
+
+
+.faq-wrap {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 0px 300px;
+    margin-bottom:100px;
+}
+
+@media (max-width: 1350px) {
+    .faq-wrap {
+        margin: 0px 100px;
+        margin-bottom: 100px;
+    }
+}
+
+@media (max-width: 800px) {
+    .faq-wrap {
+        margin: 100px 10px;
+    }
+}
+
+.faq-title {
+    margin-bottom: 40px;
+    font-size: 38px;
+    color: #00daff;
+}
+
+.faq-body {
+    width: 100%;
+    margin-bottom: 64px;
+}
+
+.faq-unit {
+    font-weight: 500;
+    box-shadow: 0 30px 60px rgb(32 38 43 / 5%);
+    background-color: #fff;
+    padding: 24px;
+    margin-bottom: 24px;
+}
+
+.faq-unit__header {
+    cursor: pointer;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.faq-unit__title {
+    font-size: 24px;
+    line-height: 34px;
+    color: #000;
+    transition: color .3s ease-in-out;
+    box-shadow: 0 30px 60px rgb(32 38 43 / 5%);
+}
+
+@media (max-width: 800px) {
+    .faq-unit__title {
+        font-size: 16px;
+    }
+}
+
+.faq-unit__body {
+    padding-top: 16px;
+    display: none;
+}
+
+    .faq-unit__body.active {
+        display: block;
+    }
+
+.faq-unit--active .faq-unit__body {
+    display: block;
+}
+.faq-unit__title-it {
+    margin-right: 40px;
+    font-weight: 900;
+}
+
+
+
+.faq-unit__title-item::before, .faq-unit__title-item::after {
+    content: '';
+    height: 3px;
+    width: 20px;
+    position: absolute;
+    background: #00daff;
+    margin: 0 auto;
+}
+
+.faq-unit__title-item::before {
+    transform: rotate(38deg);
+}
+
+.faq-unit__title-item::after {
+    transform: rotate(-38deg);
+    margin-left: 14px;
+}
+
+.faq-unit__title-item.active::before {
+    transform: rotate(45deg);
+}
+
+.faq-unit__title-item::after.active {
+    transform: rotate(-90deg);
+    margin-left: 14px;
+}
+
+
+    /* Style the arrow inside the select element: */
+    .select-selected:after {
+        position: absolute;
+        content: "";
+        top: 14px;
+        right: 10px;
+        width: 0;
+        height: 0;
+        border: 6px solid transparent;
+        border-color: #828282 transparent transparent transparent;
+    }
+
+    /* Point the arrow upwards when the select box is open (active): */
+    .select-selected.select-arrow-active:after {
+        border-color: transparent transparent #fff transparent;
+        top: 7px;
+    }
+
+/* style the items (options), including the selected item: */
+.select-items div, .select-selected {
+    color: #828282;
+    font-size:14px;
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+    cursor: pointer;
+}
+.stoimost{
+    display:flex;
+    color:aliceblue;
+}
+/* Style items (options): */
+.select-items {
+    position: absolute;
+    background-color: #fff;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+}
+
+/* Hide the items when the select box is closed: */
+.select-hide {
+    display: none;
+}
+
+.select-items div:hover, .same-as-selected {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+label {
+    margin-left: 15px;
+    display: block;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
 .btn {
     width: 100%;
     max-width: 170px;
@@ -115,11 +332,21 @@ a {
     -webkit-text-fill-color: transparent;
 }
 /*тело*/
+.toWork {
+    position: fixed; /* Фиксированное положение */
+    right: 10px; /* Расстояние от правого края окна браузера */
+    top: 20%; /* Расстояние сверху */
+    padding: 10px; /* Поля вокруг текста */
+    background: #ffe; /* Цвет фона */
+    border: 1px solid #333;
+    z-index:1000;
+}
 
 .nav__link.disabled {
     cursor: default;
     color: #87172d;
-    font-weight: 700; }
+    font-weight: 700;
+}
 
 .tr {
     opacity: 0;
@@ -567,6 +794,9 @@ a {
     transition: 1.4s;
     -webkit-transition-property: background-position;
     transition-property: background-position; }
+.ChoseType{
+
+}
 .description__item .tree-line {
     position: absolute;
     bottom: 15px;
@@ -578,7 +808,8 @@ a {
     -webkit-transition: 1.4s;
     transition: 1.4s;
     -webkit-transition-property: all;
-    transition-property: all; }
+    transition-property: all;
+}
 .description__item:hover .tree-line {
     left: 20px; }
 .description__item:hover {
@@ -1078,6 +1309,7 @@ a {
     background-repeat: no-repeat;
     background-position: 0 0;
     background-image: url(https://gt-tomsk.ru/wp-content/uploads/2022/06/news2206224-700x641.jpg);
+    margin-top:25px;
  }
 .contact-customers__this{
     max-width: 600px;
@@ -1133,9 +1365,9 @@ a {
         margin-bottom: 10px;
         margin-right: 0; } }
 .contact-customers__title {
-    margin-bottom: 30px;
-    text-transform: uppercase;
-    font-size: 30px;
+    margin-left:10px;
+    margin-bottom: 8px;
+     font-size: 25px;
     font-weight: 700; }
 @media (max-width: 576px) {
     .contact-customers__title {
